@@ -4618,6 +4618,7 @@ def process_enhanced_user_input(user_input):
             response += f"• Total Duration: {updated_path['total_duration_weeks']} weeks\n"
             response += f"• Udemy Courses: {len(updated_path.get('udemy_courses', []))}\n\n"
             response += "Check the learning path panel to see all your courses!"
+            st.rerun()
         else:
             response = "I couldn't identify specific skills to add. Could you please specify which skills you'd like to learn?"
     

@@ -1,0 +1,1063 @@
+{
+    "employee_database": {
+        "EMP123456": {
+            "employee_id": "EMP123456",
+            "name": "Aditya Gupta",
+            "current_role": "Data Analyst",
+            "skills": [
+                "SQL",
+                "Excel",
+                "Data Visualization",
+                "Python"
+            ],
+            "completed_courses": [
+                "Data Analysis Fundamentals",
+                "Excel Advanced",
+                "SQL Intermediate"
+            ],
+            "career_goals": [
+                "Senior Data Analyst"
+            ],
+            "skill_proficiency": {
+                "SQL": "Intermediate",
+                "Excel": "Advanced",
+                "Data Visualization": "Intermediate",
+                "Python": "Beginner"
+            },
+            "experience_level": "Mid-level",
+            "manager_id": "MGR001",
+            "department": "Analytics",
+            "assigned_learning_path": {
+                "learning_path": [
+                    {
+                        "id": "PYTHON_ADVANCED",
+                        "title": "Python for Data Science and Machine Learning Bootcamp",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "Critical",
+                        "reason": "This course is critical to address the significant gap in Python proficiency (Beginner to Advanced). It provides a strong foundation in Python for data analysis, covering essential libraries like Pandas, NumPy, and Scikit-learn. This is a foundational skill for a Senior Data Analyst role.",
+                        "skills_gained": [
+                            "Python",
+                            "Data Analysis",
+                            "Machine Learning"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and aligns with the mixed learning style by offering hands-on exercises and projects."
+                    },
+                    {
+                        "id": "STATISTICS_ADVANCED",
+                        "title": "Advanced Statistics for Data Analysis",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "Critical",
+                        "reason": "Addresses the significant gap in Statistics proficiency (Beginner to Advanced). A strong understanding of statistical concepts is crucial for advanced data analysis and making informed decisions. This course will cover hypothesis testing, regression analysis, and experimental design.",
+                        "skills_gained": [
+                            "Statistics",
+                            "Data Analysis",
+                            "Hypothesis Testing"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and caters to the mixed learning style with theoretical concepts and practical applications."
+                    },
+                    {
+                        "id": "SQL_ADVANCED",
+                        "title": "Advanced SQL for Data Professionals",
+                        "type": "Course",
+                        "duration": "3 weeks",
+                        "duration_weeks": 3,
+                        "priority": "High",
+                        "reason": "Addresses the SQL proficiency gap (Intermediate to Advanced). This course will cover advanced SQL techniques such as window functions, stored procedures, and performance optimization, enabling more efficient and complex data manipulation.",
+                        "skills_gained": [
+                            "SQL",
+                            "Database Management",
+                            "Data Warehousing"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and aligns with the mixed learning style by providing practical exercises and real-world scenarios."
+                    },
+                    {
+                        "id": "DATA_VISUALIZATION_ADVANCED",
+                        "title": "Data Visualization with Tableau and Power BI",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "High",
+                        "reason": "Addresses the Data Visualization proficiency gap (Intermediate to Advanced) and introduces Tableau and Power BI (Beginner to Intermediate). This course focuses on creating compelling and insightful visualizations using industry-standard tools. It will cover advanced charting techniques, dashboard design, and storytelling with data.",
+                        "skills_gained": [
+                            "Data Visualization",
+                            "Tableau",
+                            "Power BI"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and caters to the mixed learning style with hands-on exercises and real-world case studies."
+                    },
+                    {
+                        "id": "BUSINESS_INTELLIGENCE_ADVANCED",
+                        "title": "Business Intelligence and Data Warehousing",
+                        "type": "Course",
+                        "duration": "5 weeks",
+                        "duration_weeks": 5,
+                        "priority": "Medium",
+                        "reason": "Addresses the Business Intelligence proficiency gap (Beginner to Advanced). This course will cover the principles of business intelligence, data warehousing concepts, and ETL processes. It will provide a holistic understanding of how data is used to drive business decisions.",
+                        "skills_gained": [
+                            "Business Intelligence",
+                            "Data Warehousing",
+                            "ETL"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and aligns with the mixed learning style by providing theoretical knowledge and practical examples."
+                    }
+                ],
+                "total_duration_weeks": 20,
+                "explanation": "This learning path prioritizes closing the most significant skill gaps first, focusing on Python and Statistics, which are foundational for a Senior Data Analyst role. It then progresses to SQL and Data Visualization, building upon existing skills. Finally, it addresses Business Intelligence to provide a broader understanding of data-driven decision-making.",
+                "skill_gaps_addressed": [
+                    "SQL",
+                    "Data Visualization",
+                    "Statistics",
+                    "Python",
+                    "Tableau",
+                    "Power BI",
+                    "Business Intelligence"
+                ],
+                "progression_notes": "The learning path follows a logical progression, starting with foundational skills like Python and Statistics, then building upon those skills with SQL and Data Visualization. The Business Intelligence course provides a broader context for data analysis and its application in business.",
+                "alternative_suggestions": "For alternative learning resources, consider exploring online platforms like Coursera and edX for courses on specific topics such as advanced statistics, machine learning, and data visualization. Free resources like blog posts, tutorials, and documentation can also supplement the learning process. Specific Udemy course recommendations will be provided separately.",
+                "udemy_courses": [
+                    {
+                        "id": "udemy_24b3e3c1-f09b-4918-aab4-8a657534779d",
+                        "title": "Complete Power BI Bootcamp",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)complete-power-bi-bootcamp-zero-to-mastery/",
+                        "description": "Master Power BI from beginner to advanced level with hands-on projects and real-world applications.",
+                        "rating": 4.0,
+                        "price": "$49.99",
+                        "duration": "12 hours",
+                        "level": "All Levels"
+                    },
+                    {
+                        "id": "udemy_f37ce348-e2fd-4d78-b013-ebd9d6ddcf4d",
+                        "title": "Project Management for Beginners",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)project-management-for-beginners-complete-course/",
+                        "description": "Learn Project Management from scratch with step-by-step guidance and practical exercises.",
+                        "rating": 4.2,
+                        "price": "$69.99",
+                        "duration": "18 hours",
+                        "level": "Beginner"
+                    },
+                    {
+                        "id": "udemy_d18c8ded-e71d-41d4-8072-95e2f46c158c",
+                        "title": "Advanced Tableau Masterclass",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)advanced-tableau-masterclass-expert-level/",
+                        "description": "Take your Tableau skills to the next level with advanced techniques and best practices.",
+                        "rating": 4.3,
+                        "price": "$89.99",
+                        "duration": "25 hours",
+                        "level": "Advanced"
+                    },
+                    {
+                        "id": "udemy_61d4d187-a80e-49b9-9ae9-e58ce063251d",
+                        "title": "Advanced Analytics Projects Course",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)advanced-analytics-projects-practical-hands-on-course/",
+                        "description": "Build real-world Advanced Analytics projects and strengthen your portfolio with practical experience.",
+                        "rating": 4.5,
+                        "price": "$59.99",
+                        "duration": "15 hours",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "id": "udemy_ca033ddb-b6ae-4a48-bbbb-f64a0379a6f2",
+                        "title": "Professional R Development",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)professional-r-development-course/",
+                        "description": "Professional-grade R training designed for career advancement and industry success.",
+                        "rating": 4.6,
+                        "price": "$79.99",
+                        "duration": "20 hours",
+                        "level": "Intermediate"
+                    }
+                ]
+            }
+        },
+        "EMP789012": {
+            "employee_id": "EMP789012",
+            "name": "Ankita Sharma",
+            "current_role": "Junior Data Analyst",
+            "skills": [
+                "Excel",
+                "Python",
+                "SQL"
+            ],
+            "completed_courses": [
+                "Data Analysis Fundamentals",
+                "Python Basics"
+            ],
+            "career_goals": [
+                "Data Analyst"
+            ],
+            "skill_proficiency": {
+                "Excel": "Intermediate",
+                "Python": "Beginner",
+                "SQL": "Beginner"
+            },
+            "experience_level": "Junior",
+            "manager_id": "MGR001",
+            "department": "Analytics",
+            "assigned_learning_path": null
+        },
+        "EMP345678": {
+            "employee_id": "EMP345678",
+            "name": "Rohit Verma",
+            "current_role": "Business Analyst",
+            "skills": [
+                "Excel",
+                "SQL",
+                "Data Analysis"
+            ],
+            "completed_courses": [
+                "Business Analysis Fundamentals",
+                "SQL Basics"
+            ],
+            "career_goals": [
+                "Senior Business Analyst"
+            ],
+            "skill_proficiency": {
+                "Excel": "Advanced",
+                "SQL": "Intermediate",
+                "Data Analysis": "Intermediate"
+            },
+            "experience_level": "Mid-level",
+            "manager_id": "MGR001",
+            "department": "Business",
+            "assigned_learning_path": {
+                "learning_path": [
+                    {
+                        "id": "EXTERNAL_COURSE_1",
+                        "title": "Stakeholder Management: Mastering the Art of Influence",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "Critical",
+                        "reason": "Stakeholder Management is a critical skill for a Senior Business Analyst, and the employee currently has Beginner proficiency. This course focuses on practical techniques for identifying, analyzing, and managing stakeholders, which is essential for successful project outcomes. It directly addresses the 'Stakeholder Management' skill gap, moving the employee towards Advanced proficiency.",
+                        "skills_gained": [
+                            "Stakeholder Management",
+                            "Communication",
+                            "Requirements Gathering"
+                        ],
+                        "fits_constraints": "This course fits within the 20-week timeframe and caters to a mixed learning style through practical exercises and real-world examples."
+                    },
+                    {
+                        "id": "EXTERNAL_COURSE_2",
+                        "title": "Business Process Optimization: Lean Six Sigma Fundamentals",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "Critical",
+                        "reason": "Process Optimization is another key skill for a Senior Business Analyst, and the employee is currently at a Beginner level. This course introduces Lean Six Sigma principles and tools for identifying and eliminating waste in business processes. It directly addresses the 'Process Optimization' skill gap, moving the employee towards Advanced proficiency. It also indirectly improves 'Data Analysis' skills by requiring data-driven decision-making.",
+                        "skills_gained": [
+                            "Process Optimization",
+                            "Data Analysis",
+                            "Process Mapping"
+                        ],
+                        "fits_constraints": "This course fits within the 20-week timeframe and caters to a mixed learning style through theoretical concepts and practical application exercises."
+                    },
+                    {
+                        "id": "EXTERNAL_COURSE_3",
+                        "title": "Advanced Data Analysis with Python",
+                        "type": "Course",
+                        "duration": "6 weeks",
+                        "duration_weeks": 6,
+                        "priority": "High",
+                        "reason": "While the employee has intermediate SQL skills, this course will help them to advance their data analysis skills using Python, a powerful tool for data manipulation and visualization. This course will help the employee to move from intermediate to advanced proficiency in Data Analysis. It also builds upon the existing SQL skills, allowing for more complex data analysis tasks.",
+                        "skills_gained": [
+                            "Data Analysis",
+                            "Business Intelligence"
+                        ],
+                        "fits_constraints": "This course fits within the 20-week timeframe and caters to a mixed learning style through coding exercises and real-world case studies."
+                    },
+                    {
+                        "id": "EXTERNAL_COURSE_4",
+                        "title": "Project Management Professional (PMP)\u00ae Exam Prep",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "Medium",
+                        "reason": "This course will provide a solid foundation in project management principles and practices, preparing the employee for the PMP\u00ae exam. It directly addresses the 'Project Management' skill gap, moving the employee towards Intermediate proficiency. It also indirectly improves 'Stakeholder Management' and 'Communication' skills.",
+                        "skills_gained": [
+                            "Project Management",
+                            "Stakeholder Management",
+                            "Communication"
+                        ],
+                        "fits_constraints": "This course fits within the 20-week timeframe and caters to a mixed learning style through theoretical concepts and practice exams."
+                    }
+                ],
+                "total_duration_weeks": 18,
+                "explanation": "This learning path focuses on addressing the most critical skill gaps for a Senior Business Analyst, starting with Stakeholder Management and Process Optimization, where the employee has the largest proficiency gap. It then progresses to Data Analysis and Project Management. The courses are selected to provide a balance of theoretical knowledge and practical application, catering to a mixed learning style. The path is designed to be completed within the 20-week timeframe.",
+                "skill_gaps_addressed": [
+                    "Stakeholder Management",
+                    "Process Optimization",
+                    "Data Analysis",
+                    "Project Management",
+                    "Communication",
+                    "Process Mapping"
+                ],
+                "progression_notes": "The learning path follows a logical progression, starting with foundational skills like Stakeholder Management and Process Optimization, then building upon those skills with Data Analysis and Project Management. The Data Analysis course builds upon the employee's existing SQL skills. The Project Management course indirectly improves Stakeholder Management and Communication skills.",
+                "alternative_suggestions": "Alternative approaches could include focusing on specific industries or business domains to enhance strategic thinking. Consider exploring resources like Coursera for courses on specific business strategies or industry trends. Free resources like blog posts and white papers can also supplement the learning path. Note that specific Udemy recommendations will be provided separately.",
+                "udemy_courses": [
+                    {
+                        "id": "udemy_d602e317-7750-4cfd-8af8-b32b16a00ef9",
+                        "title": "Complete Stakeholder Management Bootcamp",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)complete-stakeholder-management-bootcamp-zero-to-mastery/",
+                        "description": "Master Stakeholder Management from beginner to advanced level with hands-on projects and real-world applications.",
+                        "rating": 4.0,
+                        "price": "$49.99",
+                        "duration": "12 hours",
+                        "level": "All Levels"
+                    },
+                    {
+                        "id": "udemy_6aa1bfb4-e525-4805-8da2-7019ed7522a3",
+                        "title": "Project Management for Beginners",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)project-management-for-beginners-complete-course/",
+                        "description": "Learn Project Management from scratch with step-by-step guidance and practical exercises.",
+                        "rating": 4.2,
+                        "price": "$69.99",
+                        "duration": "18 hours",
+                        "level": "Beginner"
+                    },
+                    {
+                        "id": "udemy_ce504820-5830-43b6-8c9f-0d5764a959be",
+                        "title": "Advanced Business Intelligence Masterclass",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)advanced-business-intelligence-masterclass-expert-level/",
+                        "description": "Take your Business Intelligence skills to the next level with advanced techniques and best practices.",
+                        "rating": 4.3,
+                        "price": "$89.99",
+                        "duration": "25 hours",
+                        "level": "Advanced"
+                    },
+                    {
+                        "id": "udemy_6e9b058b-aebe-4242-a688-5ce83fe1b6f6",
+                        "title": "Data Analysis Projects Course",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)data-analysis-projects-practical-hands-on-course/",
+                        "description": "Build real-world Data Analysis projects and strengthen your portfolio with practical experience.",
+                        "rating": 4.5,
+                        "price": "$59.99",
+                        "duration": "15 hours",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "id": "udemy_ea25b9d2-1708-4c59-b8d5-741a8b82b6a9",
+                        "title": "Professional Documentation Development",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)professional-documentation-development-course/",
+                        "description": "Professional-grade Documentation training designed for career advancement and industry success.",
+                        "rating": 4.6,
+                        "price": "$79.99",
+                        "duration": "20 hours",
+                        "level": "Intermediate"
+                    }
+                ]
+            }
+        },
+        "EMP999000": {
+            "employee_id": "EMP999000",
+            "name": "Ritesh Kumar",
+            "current_role": "Software Engineer",
+            "skills": [
+                "Python",
+                "Java",
+                "SQL",
+                "Git"
+            ],
+            "completed_courses": [
+                "Object-Oriented Programming",
+                "Database Design"
+            ],
+            "career_goals": [
+                "Senior Software Engineer"
+            ],
+            "skill_proficiency": {
+                "Python": "Intermediate",
+                "Java": "Intermediate",
+                "SQL": "Intermediate",
+                "Git": "Advanced"
+            },
+            "experience_level": "Mid-level",
+            "manager_id": "MGR002",
+            "department": "Engineering",
+            "assigned_learning_path": null
+        },
+        "EMP556677": {
+            "employee_id": "EMP556677",
+            "name": "Priya Patel",
+            "current_role": "Data Scientist",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "Statistics",
+                "SQL",
+                "Data Visualization"
+            ],
+            "completed_courses": [
+                "Machine Learning Fundamentals",
+                "Statistical Analysis",
+                "Deep Learning Basics"
+            ],
+            "career_goals": [
+                "Senior Data Scientist"
+            ],
+            "skill_proficiency": {
+                "Python": "Advanced",
+                "Machine Learning": "Intermediate",
+                "Statistics": "Advanced",
+                "SQL": "Advanced",
+                "Data Visualization": "Intermediate"
+            },
+            "experience_level": "Mid-level",
+            "manager_id": "MGR003",
+            "department": "Data Science",
+            "assigned_learning_path": null
+        },
+        "EMP778899": {
+            "employee_id": "EMP778899",
+            "name": "Arjun Singh",
+            "current_role": "Junior Software Engineer",
+            "skills": [
+                "Python",
+                "Git",
+                "Data Structures"
+            ],
+            "completed_courses": [
+                "Programming Fundamentals",
+                "Version Control"
+            ],
+            "career_goals": [
+                "Software Engineer"
+            ],
+            "skill_proficiency": {
+                "Python": "Intermediate",
+                "Git": "Intermediate",
+                "Data Structures": "Beginner"
+            },
+            "experience_level": "Junior",
+            "manager_id": "MGR002",
+            "department": "Engineering",
+            "assigned_learning_path": {
+                "learning_path": [
+                    {
+                        "id": "DS101",
+                        "title": "Data Structures and Algorithms in Python",
+                        "type": "Course",
+                        "duration": "6 weeks",
+                        "duration_weeks": 6,
+                        "priority": "Critical",
+                        "reason": "This course directly addresses the critical skill gaps in Data Structures and Algorithms, moving the employee from Beginner to Intermediate proficiency. It builds upon the existing Python knowledge and provides a solid foundation for more advanced software engineering tasks. It's a fundamental building block for efficient code and problem-solving.",
+                        "skills_gained": [
+                            "Data Structures",
+                            "Algorithms",
+                            "Python"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and leverages the employee's existing Python knowledge. The mixed learning style can be accommodated through online resources and practical exercises."
+                    },
+                    {
+                        "id": "JAVA101",
+                        "title": "Introduction to Java Programming",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "High",
+                        "reason": "This course introduces Java, a widely used language in software engineering. Moving from Beginner to Intermediate proficiency in Java expands the employee's skillset and makes them more versatile. It's scheduled after the Data Structures course to allow for a focused learning experience.",
+                        "skills_gained": [
+                            "Java"
+                        ],
+                        "fits_constraints": "Fits within the time constraint. Introduction to Java programming is a good starting point for a beginner."
+                    },
+                    {
+                        "id": "DB101",
+                        "title": "Database Fundamentals",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "High",
+                        "reason": "This course addresses the Database skill gap, moving the employee from Beginner to Intermediate proficiency. Understanding databases is crucial for most software applications. It provides a foundation for data storage and retrieval.",
+                        "skills_gained": [
+                            "Database"
+                        ],
+                        "fits_constraints": "Fits within the time constraint. Database fundamentals are essential for software engineers."
+                    },
+                    {
+                        "id": "API101",
+                        "title": "API Development with Python",
+                        "type": "Course",
+                        "duration": "6 weeks",
+                        "duration_weeks": 6,
+                        "priority": "Medium",
+                        "reason": "This course addresses the API Development skill gap, moving the employee from Beginner to Intermediate proficiency. It leverages the employee's existing Python knowledge and builds upon the database knowledge acquired in the previous course. API development is essential for building modern, interconnected applications.",
+                        "skills_gained": [
+                            "API Development",
+                            "Python"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and leverages the employee's existing Python knowledge. The mixed learning style can be accommodated through online resources and practical exercises."
+                    }
+                ],
+                "total_duration_weeks": 20,
+                "explanation": "This learning path prioritizes addressing the most significant skill gaps first, starting with Data Structures and Algorithms, followed by Java and Database fundamentals, and culminating in API Development. This approach ensures a solid foundation in core software engineering principles before moving on to more specialized areas. The path is designed to be progressive, building upon previously acquired knowledge and skills.",
+                "skill_gaps_addressed": [
+                    "Data Structures",
+                    "Algorithms",
+                    "Java",
+                    "Database",
+                    "API Development"
+                ],
+                "progression_notes": "The learning progression is designed to be logical, with Data Structures and Algorithms serving as a foundation for subsequent courses. The Java course is placed after Data Structures to allow for focused learning. The API Development course builds upon the Python and Database knowledge acquired in previous courses. Each course aims to move the employee from their current proficiency level towards the target proficiency for each skill.",
+                "alternative_suggestions": "For Data Analysis, Project Management, and Communication skills, consider exploring external resources such as Coursera, edX, and free online tutorials. These platforms offer a wide range of courses and resources that can help develop these skills. For example, for Data Analysis, look into courses on Pandas and NumPy. For Project Management, consider courses on Agile methodologies. For Communication, explore courses on technical writing and presentation skills. Specific Udemy course recommendations will be provided separately.",
+                "udemy_courses": [
+                    {
+                        "id": "udemy_f295158d-f9ff-47ed-85cf-b6ac0c7da764",
+                        "title": "Complete Project Management Bootcamp",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)complete-project-management-bootcamp-zero-to-mastery/",
+                        "description": "Master Project Management from beginner to advanced level with hands-on projects and real-world applications.",
+                        "rating": 4.0,
+                        "price": "$49.99",
+                        "duration": "12 hours",
+                        "level": "All Levels"
+                    },
+                    {
+                        "id": "udemy_f5abdda7-18a3-4824-b222-9e353d9ed3ff",
+                        "title": "Data Analysis for Beginners",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)data-analysis-for-beginners-complete-course/",
+                        "description": "Learn Data Analysis from scratch with step-by-step guidance and practical exercises.",
+                        "rating": 4.2,
+                        "price": "$69.99",
+                        "duration": "18 hours",
+                        "level": "Beginner"
+                    },
+                    {
+                        "id": "udemy_c13ddd3c-6496-443b-8f19-1e031661db72",
+                        "title": "Advanced API Development Masterclass",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)advanced-api-development-masterclass-expert-level/",
+                        "description": "Take your API Development skills to the next level with advanced techniques and best practices.",
+                        "rating": 4.3,
+                        "price": "$89.99",
+                        "duration": "25 hours",
+                        "level": "Advanced"
+                    },
+                    {
+                        "id": "udemy_f021ddc8-23eb-43b6-81cf-4c9ae1c9ba3b",
+                        "title": "Python Projects Course",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)python-projects-practical-hands-on-course/",
+                        "description": "Build real-world Python projects and strengthen your portfolio with practical experience.",
+                        "rating": 4.5,
+                        "price": "$59.99",
+                        "duration": "15 hours",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "id": "udemy_700ffb22-c65b-434b-a686-a5c2f41edb90",
+                        "title": "Professional Java Development",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)professional-java-development-course/",
+                        "description": "Professional-grade Java training designed for career advancement and industry success.",
+                        "rating": 4.6,
+                        "price": "$79.99",
+                        "duration": "20 hours",
+                        "level": "Intermediate"
+                    }
+                ]
+            }
+        },
+        "EMP334455": {
+            "employee_id": "EMP334455",
+            "name": "Sneha Reddy",
+            "current_role": "DevOps Engineer",
+            "skills": [
+                "Linux",
+                "Docker",
+                "CI/CD",
+                "AWS"
+            ],
+            "completed_courses": [
+                "Linux Administration",
+                "Docker Essentials",
+                "AWS Fundamentals"
+            ],
+            "career_goals": [
+                "Senior DevOps Engineer"
+            ],
+            "skill_proficiency": {
+                "Linux": "Advanced",
+                "Docker": "Intermediate",
+                "CI/CD": "Intermediate",
+                "AWS": "Intermediate"
+            },
+            "experience_level": "Mid-level",
+            "manager_id": "MGR004",
+            "department": "Infrastructure",
+            "assigned_learning_path": null
+        },
+        "EMP667788": {
+            "employee_id": "EMP667788",
+            "name": "Vikram Joshi",
+            "current_role": "Frontend Developer",
+            "skills": [
+                "JavaScript",
+                "React",
+                "HTML",
+                "CSS"
+            ],
+            "completed_courses": [
+                "Web Development Fundamentals",
+                "React Basics"
+            ],
+            "career_goals": [
+                "Senior Frontend Developer"
+            ],
+            "skill_proficiency": {
+                "JavaScript": "Intermediate",
+                "React": "Intermediate",
+                "HTML": "Advanced",
+                "CSS": "Advanced"
+            },
+            "experience_level": "Mid-level",
+            "manager_id": "MGR002",
+            "department": "Engineering",
+            "assigned_learning_path": null
+        },
+        "EMP112233": {
+            "employee_id": "EMP112233",
+            "name": "Kavya Nair",
+            "current_role": "Data Engineer",
+            "skills": [
+                "Python",
+                "SQL",
+                "ETL",
+                "Apache Spark"
+            ],
+            "completed_courses": [
+                "Data Engineering Fundamentals",
+                "Big Data Processing"
+            ],
+            "career_goals": [
+                "Senior Data Engineer"
+            ],
+            "skill_proficiency": {
+                "Python": "Advanced",
+                "SQL": "Advanced",
+                "ETL": "Intermediate",
+                "Apache Spark": "Intermediate"
+            },
+            "experience_level": "Mid-level",
+            "manager_id": "MGR003",
+            "department": "Data Engineering",
+            "assigned_learning_path": {
+                "learning_path": [
+                    {
+                        "id": "EXTERNAL_COURSE_1",
+                        "title": "Cloud Data Warehousing with Snowflake",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "Critical",
+                        "reason": "Addresses the critical skill gaps in Data Warehousing and Cloud Platforms. Snowflake is a popular cloud data warehousing solution. This course will provide hands-on experience with building and managing data warehouses in the cloud, moving the employee from Beginner to Intermediate proficiency in both areas. It also provides a foundation for understanding data architecture in a cloud environment.",
+                        "skills_gained": [
+                            "Data Warehousing",
+                            "Cloud Platforms",
+                            "Data Architecture"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and provides a practical, hands-on learning experience, aligning with the mixed learning style preference."
+                    },
+                    {
+                        "id": "EXTERNAL_COURSE_2",
+                        "title": "Advanced ETL and Data Pipelines with Apache Airflow",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "High",
+                        "reason": "Focuses on advancing ETL skills from Intermediate to Advanced and building Data Pipelines from Beginner to Intermediate. Apache Airflow is a widely used tool for orchestrating complex data pipelines. This course builds upon the employee's existing Apache Spark knowledge and introduces a crucial tool for modern data engineering. It also touches upon infrastructure as code concepts.",
+                        "skills_gained": [
+                            "ETL",
+                            "Data Pipelines",
+                            "Infrastructure"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and provides a practical, hands-on learning experience, aligning with the mixed learning style preference. Builds upon existing Spark knowledge."
+                    },
+                    {
+                        "id": "EXTERNAL_COURSE_3",
+                        "title": "Designing Data Lakes and Data Governance",
+                        "type": "Course",
+                        "duration": "4 weeks",
+                        "duration_weeks": 4,
+                        "priority": "High",
+                        "reason": "Addresses the Big Data and Data Governance skill gaps, moving the employee from Beginner to Advanced in Big Data and Beginner to Intermediate in Data Governance. This course will cover the principles of designing scalable and reliable data lakes, as well as the importance of data governance in ensuring data quality and compliance. It also contributes to understanding data architecture.",
+                        "skills_gained": [
+                            "Big Data",
+                            "Data Governance",
+                            "Data Architecture"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and provides a theoretical and practical understanding of data lake design and governance, aligning with the mixed learning style preference."
+                    },
+                    {
+                        "id": "EXTERNAL_COURSE_4",
+                        "title": "Data Engineering on Google Cloud Platform Specialization",
+                        "type": "Specialization",
+                        "duration": "8 weeks",
+                        "duration_weeks": 8,
+                        "priority": "Medium",
+                        "reason": "This specialization will help the employee to improve their skills in Data Architecture, Performance Optimization, and Cloud Platforms. It will provide a comprehensive overview of the Google Cloud Platform and how to use it for data engineering tasks. It will also cover the principles of data architecture and how to design scalable and reliable data pipelines. This course will also help the employee to improve their skills in performance optimization by learning how to use Google Cloud Platform's tools for monitoring and optimizing data pipelines.",
+                        "skills_gained": [
+                            "Data Architecture",
+                            "Performance Optimization",
+                            "Cloud Platforms"
+                        ],
+                        "fits_constraints": "Fits within the time constraint and provides a comprehensive overview of the Google Cloud Platform and how to use it for data engineering tasks."
+                    }
+                ],
+                "total_duration_weeks": 20,
+                "explanation": "This learning path focuses on addressing the most critical skill gaps first, starting with Data Warehousing and Cloud Platforms, then moving to ETL and Data Pipelines, followed by Big Data and Data Governance. The final course is a specialization on Google Cloud Platform, which will help the employee to improve their skills in Data Architecture, Performance Optimization, and Cloud Platforms.",
+                "skill_gaps_addressed": [
+                    "ETL",
+                    "Data Pipelines",
+                    "Database",
+                    "Big Data",
+                    "Cloud Platforms",
+                    "Data Warehousing",
+                    "Data Architecture",
+                    "Performance Optimization",
+                    "Stream Processing",
+                    "Data Governance",
+                    "Infrastructure",
+                    "Team Leadership"
+                ],
+                "progression_notes": "The learning path follows a logical progression, starting with foundational skills in Data Warehousing and Cloud Platforms, then building upon those skills with ETL and Data Pipelines. The Big Data and Data Governance course provides a broader perspective on data management, while the Google Cloud Platform specialization provides a deep dive into a specific cloud platform.",
+                "alternative_suggestions": "Alternative approaches could involve focusing on specific database technologies like PostgreSQL or NoSQL databases like MongoDB. For stream processing, Apache Kafka and Apache Flink are good alternatives to explore. Consider exploring free resources like the AWS Data Engineering Learning Path or Google Cloud's Data Engineering documentation. Udemy courses will be provided separately, offering more granular options for specific skills.",
+                "udemy_courses": [
+                    {
+                        "id": "udemy_6201e496-9eb8-482e-b359-ec68e2f95563",
+                        "title": "Complete Project Management Bootcamp",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)complete-project-management-bootcamp-zero-to-mastery/",
+                        "description": "Master Project Management from beginner to advanced level with hands-on projects and real-world applications.",
+                        "rating": 4.0,
+                        "price": "$49.99",
+                        "duration": "12 hours",
+                        "level": "All Levels"
+                    },
+                    {
+                        "id": "udemy_ac13639c-b835-4777-ad32-749022a1156e",
+                        "title": "Data Architecture for Beginners",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)data-architecture-for-beginners-complete-course/",
+                        "description": "Learn Data Architecture from scratch with step-by-step guidance and practical exercises.",
+                        "rating": 4.2,
+                        "price": "$69.99",
+                        "duration": "18 hours",
+                        "level": "Beginner"
+                    },
+                    {
+                        "id": "udemy_ea18e70a-22b4-4aaa-ab1b-bbb649cff22d",
+                        "title": "Advanced Team Leadership Masterclass",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)advanced-team-leadership-masterclass-expert-level/",
+                        "description": "Take your Team Leadership skills to the next level with advanced techniques and best practices.",
+                        "rating": 4.3,
+                        "price": "$89.99",
+                        "duration": "25 hours",
+                        "level": "Advanced"
+                    },
+                    {
+                        "id": "udemy_c5ccdfc5-7888-470f-b4cd-8b9dde9bc322",
+                        "title": "Data Analysis Projects Course",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)data-analysis-projects-practical-hands-on-course/",
+                        "description": "Build real-world Data Analysis projects and strengthen your portfolio with practical experience.",
+                        "rating": 4.5,
+                        "price": "$59.99",
+                        "duration": "15 hours",
+                        "level": "Intermediate"
+                    },
+                    {
+                        "id": "udemy_e55c319d-25e6-46f9-87c1-e88e84f93795",
+                        "title": "Professional Data Warehousing Development",
+                        "url": "[https://www.udemy.com/course/](https://www.udemy.com/course/)professional-data-warehousing-development-course/",
+                        "description": "Professional-grade Data Warehousing training designed for career advancement and industry success.",
+                        "rating": 4.6,
+                        "price": "$79.99",
+                        "duration": "20 hours",
+                        "level": "Intermediate"
+                    }
+                ]
+            }
+        },
+        "EMP445566": {
+            "employee_id": "EMP445566",
+            "name": "Rahul Agarwal",
+            "current_role": "QA Engineer",
+            "skills": [
+                "Testing",
+                "Selenium",
+                "Bug Tracking",
+                "API Testing"
+            ],
+            "completed_courses": [
+                "Software Testing Fundamentals",
+                "Test Automation"
+            ],
+            "career_goals": [
+                "Senior QA Engineer"
+            ],
+            "skill_proficiency": {
+                "Testing": "Advanced",
+                "Selenium": "Intermediate",
+                "Bug Tracking": "Advanced",
+                "API Testing": "Intermediate"
+            },
+            "experience_level": "Mid-level",
+            "manager_id": "MGR002",
+            "department": "Quality Assurance",
+            "assigned_learning_path": null
+        },
+        "EMP887766": {
+            "employee_id": "EMP887766",
+            "name": "Meera Krishnan",
+            "current_role": "Senior Data Scientist",
+            "skills": [
+                "Machine Learning",
+                "Deep Learning",
+                "Python",
+                "MLOps",
+                "Research"
+            ],
+            "completed_courses": [
+                "Advanced Machine Learning",
+                "Deep Learning Specialization",
+                "MLOps Pipeline"
+            ],
+            "career_goals": [
+                "Principal Data Scientist"
+            ],
+            "skill_proficiency": {
+                "Machine Learning": "Advanced",
+                "Deep Learning": "Advanced",
+                "Python": "Expert",
+                "MLOps": "Intermediate",
+                "Research": "Advanced"
+            },
+            "experience_level": "Senior",
+            "manager_id": "MGR003",
+            "department": "Data Science",
+            "assigned_learning_path": null
+        },
+        "EMP998877": {
+            "employee_id": "EMP998877",
+            "name": "Amit Gupta",
+            "current_role": "Senior Software Engineer",
+            "skills": [
+                "System Design",
+                "Python",
+                "Java",
+                "Cloud Architecture",
+                "Team Leadership"
+            ],
+            "completed_courses": [
+                "System Design Mastery",
+                "Cloud Architecture",
+                "Leadership Essentials"
+            ],
+            "career_goals": [
+                "Tech Lead"
+            ],
+            "skill_proficiency": {
+                "System Design": "Advanced",
+                "Python": "Expert",
+                "Java": "Advanced",
+                "Cloud Architecture": "Intermediate",
+                "Team Leadership": "Intermediate"
+            },
+            "experience_level": "Senior",
+            "manager_id": "MGR002",
+            "department": "Engineering",
+            "assigned_learning_path": null
+        }
+    },
+    "learning_path_progress": {
+        "EMP123456": {
+            "PYTHON_ADVANCED": {
+                "status": "In Progress",
+                "start_date": "2025-04-15T00:00:00",
+                "completion_date": null
+            },
+            "STATISTICS_ADVANCED": {
+                "status": "Not Started",
+                "start_date": "2025-03-01T00:00:00",
+                "completion_date": null
+            },
+            "SQL_ADVANCED": {
+                "status": "Completed",
+                "start_date": "2025-02-01T00:00:00",
+                "completion_date": "2025-02-10T00:00:00"
+            },
+            "DATA_VISUALIZATION_ADVANCED": {
+                "status": "Not Started",
+                "start_date": "2025-02-20T00:00:00",
+                "completion_date": null
+            },
+            "BUSINESS_INTELLIGENCE_ADVANCED": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_24b3e3c1-f09b-4918-aab4-8a657534779d": {
+                "status": "In Progress",
+                "start_date": "2025-03-15T00:00:00",
+                "completion_date": null
+            },
+            "udemy_f37ce348-e2fd-4d78-b013-ebd9d6ddcf4d": {
+                "status": "Not Started",
+                "start_date": "2025-01-15T00:00:00",
+                "completion_date": null
+            },
+            "udemy_d18c8ded-e71d-41d4-8072-95e2f46c158c": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_61d4d187-a80e-49b9-9ae9-e58ce063251d": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_ca033ddb-b6ae-4a48-bbbb-f64a0379a6f2": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            }
+        },
+        "EMP345678": {
+            "EXTERNAL_COURSE_1": {
+                "status": "Completed",
+                "start_date": "2025-01-01T00:00:00",
+                "completion_date": "2025-01-20T00:00:00"
+            },
+            "EXTERNAL_COURSE_2": {
+                "status": "Completed",
+                "start_date": "2025-01-21T00:00:00",
+                "completion_date": "2025-02-10T00:00:00"
+            },
+            "EXTERNAL_COURSE_3": {
+                "status": "In Progress",
+                "start_date": "2025-05-01T00:00:00",
+                "completion_date": null
+            },
+            "EXTERNAL_COURSE_4": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_d602e317-7750-4cfd-8af8-b32b16a00ef9": {
+                "status": "Not Started",
+                "start_date": "2025-02-01T00:00:00",
+                "completion_date": null
+            },
+            "udemy_6aa1bfb4-e525-4805-8da2-7019ed7522a3": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_ce504820-5830-43b6-8c9f-0d5764a959be": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_6e9b058b-aebe-4242-a688-5ce83fe1b6f6": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_ea25b9d2-1708-4c59-b8d5-741a8b82b6a9": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            }
+        },
+        "EMP778899": {
+            "DS101": {
+                "status": "Not Started",
+                "start_date": "2025-01-01T00:00:00",
+                "completion_date": null
+            },
+            "JAVA101": {
+                "status": "In Progress",
+                "start_date": "2025-04-01T00:00:00",
+                "completion_date": null
+            },
+            "DB101": {
+                "status": "Not Started",
+                "start_date": "2025-02-15T00:00:00",
+                "completion_date": null
+            },
+            "API101": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_f295158d-f9ff-47ed-85cf-b6ac0c7da764": {
+                "status": "Not Started",
+                "start_date": "2025-03-01T00:00:00",
+                "completion_date": null
+            },
+            "udemy_f5abdda7-18a3-4824-b222-9e353d9ed3ff": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_c13ddd3c-6496-443b-8f19-1e031661db72": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_f021ddc8-23eb-43b6-81cf-4c9ae1c9ba3b": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_700ffb22-c65b-434b-a686-a5c2f41edb90": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            }
+        },
+        "EMP112233": {
+            "EXTERNAL_COURSE_1": {
+                "status": "Completed",
+                "start_date": "2025-04-01T00:00:00",
+                "completion_date": "2025-04-15T00:00:00"
+            },
+            "EXTERNAL_COURSE_2": {
+                "status": "Completed",
+                "start_date": "2025-04-16T00:00:00",
+                "completion_date": "2025-05-01T00:00:00"
+            },
+            "EXTERNAL_COURSE_3": {
+                "status": "Completed",
+                "start_date": "2025-05-02T00:00:00",
+                "completion_date": "2025-05-20T00:00:00"
+            },
+            "EXTERNAL_COURSE_4": {
+                "status": "In Progress",
+                "start_date": "2025-05-21T00:00:00",
+                "completion_date": null
+            },
+            "udemy_6201e496-9eb8-482e-b359-ec68e2f95563": {
+                "status": "Completed",
+                "start_date": "2025-03-01T00:00:00",
+                "completion_date": "2025-03-20T00:00:00"
+            },
+            "udemy_ac13639c-b835-4777-ad32-749022a1156e": {
+                "status": "Completed",
+                "start_date": "2025-03-21T00:00:00",
+                "completion_date": "2025-04-10T00:00:00"
+            },
+            "udemy_ea18e70a-22b4-4aaa-ab1b-bbb649cff22d": {
+                "status": "In Progress",
+                "start_date": "2025-06-15T00:00:00",
+                "completion_date": null
+            },
+            "udemy_c5ccdfc5-7888-470f-b4cd-8b9dde9bc322": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            },
+            "udemy_e55c319d-25e6-46f9-87c1-e88e84f93795": {
+                "status": "Not Started",
+                "start_date": null,
+                "completion_date": null
+            }
+        }
+    }
+}

@@ -4459,7 +4459,7 @@ def add_courses_to_learning_path(current_path, skills_to_add, employee_profile, 
         if any(skill.lower() in [s.lower() for s in course["skills"]] for skill in skills_to_add):
             if course["title"] not in employee_profile["completed_courses"]:
                 # Check if course is not already in learning path
-                existing_titles = [c.get("title", "") for c in current_path.get("learning_path", []) if else ""]
+                existing_titles = [c.get("title", "") for c in current_path.get("learning_path", []) if current_path else ""]
                 if course["title"] not in existing_titles:
                     new_courses.append({
                         "id": course["id"], # Include ID

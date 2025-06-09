@@ -4480,8 +4480,9 @@ def add_courses_to_learning_path(current_path, skills_to_add, employee_profile, 
             new_udemy_courses = udemy_agent.generate_udemy_courses(skills_to_add, employee_profile["current_role"])
     
     # Update the learning path
-    updated_path = current_path.copy()
-    updated_path["learning_path"].extend(new_courses)
+    if current_path:
+        updated_path = current_path.copy()
+        updated_path["learning_path"].extend(new_courses)
     
     # Add new Udemy courses (avoid duplicates)
     existing_udemy_titles = [c.get("title", "") for c in updated_path.get("udemy_courses", [])]
@@ -4509,8 +4510,8 @@ def remove_courses_from_learning_path(current_path, skills_to_remove):
     """
     Remove courses related to specific skills that user already knows
     """
-    
-    updated_path = current_path.copy()
+    if current_path:
+        updated_path = current_path.copy()
     removed_courses = []
     
     # Remove internal courses

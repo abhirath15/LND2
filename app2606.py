@@ -4488,7 +4488,7 @@ def add_courses_to_learning_path(current_path, skills_to_add, employee_profile, 
         updated_path["udemy_courses"] = []
         updated_path["total_duration_weeks"] = 0
         updated_path["skill_gaps_addressed"] = []
-        updated_path["explanation"] += f"\n\n🆕 Added courses for: {', '.join(skills_to_add)}"
+        updated_path["explanation"] = ""
         
     updated_path["learning_path"].extend(new_courses)
     #updated_path["learning_path"] = []

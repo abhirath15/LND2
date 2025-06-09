@@ -4096,7 +4096,7 @@ def enhanced_intent_detection_with_gemini(user_input, conversation_history, curr
     You are an intelligent learning path assistant. Analyze the user's input to determine their intent and what action should be taken.
     
     CONTEXT:
-    - Current Learning Path: {json.dumps(current_learning_path.get('learning_path', [])[:5])}  # Show first 5 courses
+    - Current Learning Path: {json.dumps(current_learning_path.get('learning_path', [])[:5]) if current_learning_path else ""}  # Show first 5 courses
     - Employee Skills: {json.dumps(st.session_state.employee_profile.get('skill_proficiency', {}))}
     - Recent Conversation: {json.dumps(context['conversation_history'])}
     

@@ -4485,6 +4485,7 @@ def add_courses_to_learning_path(current_path, skills_to_add, employee_profile, 
     else:
         updated_path = {}
         updated_path["learning_path"] = []
+        updated_path["udemy_courses"] = []
     updated_path["learning_path"].extend(new_courses)
     #updated_path["learning_path"] = []
     # Add new Udemy courses (avoid duplicates)

@@ -4482,10 +4482,12 @@ def add_courses_to_learning_path(current_path, skills_to_add, employee_profile, 
     # Update the learning path
     if current_path:
         updated_path = current_path.copy()
-        updated_path["learning_path"].extend(new_courses)
-    
+    else:
+        updated_path = {}
+    updated_path["learning_path"].extend(new_courses)
+    #updated_path["learning_path"] = []
     # Add new Udemy courses (avoid duplicates)
-    existing_udemy_titles = [c.get("title", "") for c in updated_path.get("udemy_courses", [])]
+    existing_udemy_titles = [c.get("title", "") for c in updated_path.get("udemy_courses", [])] if updated_path else []
     for course in new_udemy_courses:
         if course.title not in existing_udemy_titles:
             updated_path["udemy_courses"].append({
